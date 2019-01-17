@@ -1,0 +1,34 @@
+{
+  "name": "trendbase",
+  "version": "1.0.0",
+  "description": "trendbase simple api to work with https://developers.google.com/slides/",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec babel-node --presets env,stage-2 ./app.js",
+    "start": "babel-node --presets env,stage-2 ./app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Spikus/trendbase.git"
+  },
+  "keywords": [
+    "slides"
+  ],
+  "author": "Daniel Yehorov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Spikus/trendbase/issues"
+  },
+  "homepage": "https://github.com/Spikus/trendbase#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "googleapis": "^27.0.0",
+    "nodemon": "^1.18.9",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-2": "^6.24.1"
+  }
+}
